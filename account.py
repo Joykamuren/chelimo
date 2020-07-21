@@ -77,8 +77,7 @@ class BankAccount:
       
       
     def deposit_statement(self, amount):
-      self.deposit(self, amount)
-      
+      self.deposit(self,amount)
       return self.deposit_summary.append(amount)
        
       
